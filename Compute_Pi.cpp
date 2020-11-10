@@ -69,16 +69,3 @@ int main(){
 	std::cout << compute_pi(1000) << '\n';
 	std::cout << compute_pi(100000) << '\n';
 }
-
-
-// For the compiler optimization levels I tried three levels:
-// -O1 
-// -O2
-// -O3
-// From inspection I do not think each level made too 
-// of a change when running the code. The function being 
-// used is not too computationally expensive since it only
-// has a single for loop containing addition and multipication.
-// I believe that used on code dealing with matrices, or other
-// large data set the compiler optimization levels would work
-// better than I was able to tell for this program.
